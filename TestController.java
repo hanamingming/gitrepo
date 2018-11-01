@@ -1,4 +1,4 @@
-package com.fenbi.fbms.controller;
+﻿package com.fenbi.fbms.controller;
 
 import java.io.InputStream;
 import java.sql.Timestamp;
@@ -35,12 +35,6 @@ import com.fenbi.fbms.service.CourseService;
 public class TestController {
 	@Autowired
 	private CourseService courseService;
-
-	@RequestMapping("/baidu")
-	public String baidu() {
-		
-		return "redirect:http://www.baidu.com";
-	}
 	
 	@RequestMapping("/getCourse")
 	@ResponseBody
